@@ -23,6 +23,14 @@ First working version.
 - **Privacy by default**: zero telemetry; prompt text not stored unless opted in.
 - 55-problem original bank across 37 patterns; JSON Schema + CI linter.
 
+### Experimental
+- `spar coach` — **Sparky**, an interactive coach dog. He shows a problem, you
+  *type* your pattern answer, he grades it (heuristic, generous) and reacts with
+  moods + barks, and he levels up with your mastery (gear: headband → shades →
+  medal → crown; learns "tricks" as you warm up patterns). Preview / opt-in.
+  Known TODO: wide-glyph (kaomoji/emoji) width handling for pixel-perfect boxes;
+  optional LLM grading of free-text answers.
+
 ### Known / planned
 - npm package name: `spar` is squatted on the registry; release may publish under
   a scope (e.g. `@itstun/spar`) — the command stays `spar`.

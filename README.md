@@ -114,6 +114,30 @@ All problem statements are **original** — written to teach the same pattern, n
 copied from any paid platform. Want to add some? See
 [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Experimental: `spar coach` 🐕
+
+Meet **Sparky**, your sparring-partner coach dog. Instead of self-grading, you
+*type* your answer and he reacts — and he levels up as your skills do.
+
+```
+┌ spar ⊹ coach ──────────── Sparky · lvl 3 "sparring partner" · ★130 ┐
+│ Daily Temperatures   Medium                                        │
+│ pattern: ?                                                         │
+│   ╭─────────────────────────────────────────────╮                 │
+│   │ WOOF! nailed it. that pattern is your trick │                 │
+│   ╰────────────────────────────────────────────╯                  │
+│     ╲      ╭──╮                                                    │
+│        /ᐢᗒᴥᗕᐢ\〜      ← shades unlocked at lvl 3                    │
+│         ∪   ∪                                                      │
+│   ▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔   │
+│ streak 5 · today 3/5 · tricks: sit, fetch, roll                    │
+└────────────────────────────────────────────────────────────────────┘
+you ▸ monotonic stack
+```
+
+Try it: `spar coach` (type your pattern guess; `hint` / `show` / `skip` / `quit`).
+Early preview — feedback welcome.
+
 ## Status
 
 `v0.1` — early but working end-to-end. Roadmap: richer spaced repetition,

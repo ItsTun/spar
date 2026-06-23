@@ -74,6 +74,7 @@ function doctor() {
 switch (cmd) {
   case "watch": case "": tui.run(); break;
   case "next": tui.run(); break; // opens the pane; press n / it auto-shows
+  case "coach": require("./coach.js").run(); break; // EXPERIMENTAL: Sparky, interactive
   case "stats": case "status": printStats(); break;
   case "reset": state.saveStats(state.freshStats()); console.log("stats reset."); break;
   case "off": { const c = state.loadConfig(); c.enabled = false; state.saveConfig(c); console.log("spar paused (hooks no-op). `spar on` to resume."); break; }

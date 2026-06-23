@@ -1,0 +1,14 @@
+{
+  "name": "spar",
+  "owner": { "name": "Tun Han" },
+  "metadata": {
+    "description": "spar — stay sharp while the AI does the work."
+  },
+  "plugins": [
+    {
+      "name": "spar",
+      "source": "./",
+      "description": "Turns Claude Code's thinking time into coding-interview reps. Installs UserPromptSubmit + Stop hooks that push a problem to a side drill pane."
+    }
+  ]
+}

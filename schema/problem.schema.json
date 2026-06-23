@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "spar problem",
+  "type": "object",
+  "required": ["id", "title", "diff", "pattern", "drillQ", "drillA", "prompt", "hints", "approach", "complexity"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "stable kebab-case key (used by stats; never reuse)" },
+    "title": { "type": "string", "minLength": 2 },
+    "diff": { "type": "string", "enum": ["Easy", "Medium", "Hard"] },
+    "pattern": { "type": "string", "minLength": 2, "description": "the technique being drilled, e.g. 'Sliding Window'" },
+    "drillQ": { "type": "string", "minLength": 5, "description": "one-line recall prompt for short waits" },
+    "drillA": { "type": "string", "minLength": 5, "description": "the key idea / approach in one or two lines" },
+    "prompt": { "type": "string", "minLength": 10, "description": "ORIGINAL problem statement — never copy verbatim from LeetCode" },
+    "examples": { "type": "string" },
+    "hints": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "approach": { "type": "string", "minLength": 5 },
+    "complexity": { "type": "string", "minLength": 3 }
+  }
+}

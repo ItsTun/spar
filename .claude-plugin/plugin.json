@@ -1,0 +1,12 @@
+{
+  "name": "spar",
+  "version": "0.1.0",
+  "description": "Stay sharp while the AI does the work — turns Claude Code's thinking time into coding-interview reps.",
+  "author": { "name": "Tun Han" },
+  "homepage": "https://github.com/ItsTun/spar",
+  "repository": "https://github.com/ItsTun/spar",
+  "license": "MIT",
+  "keywords": ["interview", "leetcode", "practice", "spaced-repetition", "drill", "claude-code"],
+  "hooks": "./hooks/hooks.json",
+  "commands": ["./commands/spar.md"]
+}

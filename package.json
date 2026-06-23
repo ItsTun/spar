@@ -1,0 +1,21 @@
+{
+  "name": "spar",
+  "version": "0.1.0",
+  "description": "Stay sharp while the AI does the work — turn Claude Code's thinking time into coding-interview reps.",
+  "bin": { "spar": "src/cli.js" },
+  "main": "src/cli.js",
+  "type": "commonjs",
+  "engines": { "node": ">=16" },
+  "files": ["src", "hooks", "commands", "schema", ".claude-plugin", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node test/run.js",
+    "lint:problems": "node scripts/lint-problems.js",
+    "check": "npm run lint:problems && npm test"
+  },
+  "keywords": ["interview", "leetcode", "coding-interview", "practice", "spaced-repetition", "drill", "claude-code", "cli", "tui"],
+  "repository": { "type": "git", "url": "https://github.com/ItsTun/spar.git" },
+  "homepage": "https://github.com/ItsTun/spar#readme",
+  "bugs": { "url": "https://github.com/ItsTun/spar/issues" },
+  "license": "MIT",
+  "author": "Tun Han"
+}

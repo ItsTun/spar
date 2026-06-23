@@ -135,8 +135,13 @@ Meet **Sparky**, your sparring-partner coach dog. Instead of self-grading, you
 you ▸ monotonic stack
 ```
 
-Try it: `spar coach` (type your pattern guess; `hint` / `show` / `skip` / `quit`).
-Early preview — feedback welcome.
+He's **alive and tied to Claude**: he roams the pane and naps when idle, *perks
+up and trots over with a problem the moment Claude starts working* (read from the
+hook state), and *celebrates when Claude finishes*. You answer inline by typing.
+
+Try it: `spar coach` — type your pattern guess (`hint` / `show` / `skip` / `quit`),
+or `spar coach --demo` to flip through a non-interactive preview. Early days —
+feedback welcome.
 
 ## Status
 
